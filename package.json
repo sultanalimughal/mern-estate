@@ -1,0 +1,27 @@
+{
+  "name": "mern-estate",
+  "version": "1.0.0",
+  "description": "This is MERN js project for practice watching from YouTube.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "nodemon api/index.js",
+    "build" : "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1",
+    "nodemon": "^3.0.1",
+    "swiper": "^11.0.3"
+  }
+}

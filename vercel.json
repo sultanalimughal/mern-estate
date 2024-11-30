@@ -4,7 +4,7 @@
   "builds": [
     {
       "src": "index.js",
-      "user": "@vercel/node"
+      "use": "@vercel/node"
     },
     {
       "src": "src/**/**",
